@@ -1,0 +1,96 @@
+:root{
+    --main-color: #24252e !important;
+    --second-color: #599ed6 !important;
+    --third-color: #2c2d39 !important;
+    --fourth-color: #363845  !important;
+}
+.main_color{
+    color: var(--main-color);
+}
+.second_color{
+    color: var(--second-color);
+}
+.main_background{
+    background-color: var(--main-color);
+}
+.second_background{
+    background-color: var(--second-color);
+}
+.third_background{
+    background-color: var(--third-color);
+}
+.fourth_background{
+    background-color: var(--fourth-color);
+}
+
+.img_background {
+    background-image: url('../Images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: scroll; 
+    min-height: 50vh; 
+    width: 100%; 
+}
+.navbar{
+    background-color: #24252e !important;
+    --bs-navbar-color: white;
+    --bs-navbar-hover-color: white;
+    --bs-navbar-active-color: var(--second-color);
+    /* --bs-navbar-disabled-color: black; */
+}
+
+header {
+    padding-bottom: 2.5rem;
+    padding-top: 3.125rem;
+}
+
+header p {
+    font-size: .625rem;
+    color: #bfc1c8;
+}
+
+.list{
+    width: 3.125rem;
+    height: 3.125rem;
+}
+.list:hover{
+    color: var(--second-color);
+    cursor: pointer;
+    border: 1px solid var(--second-color);
+    border-radius: 50%;
+}
+
+.sochal{
+    width: 50px;
+    height: 50px;
+}
+.sochal:hover{
+    background-color: var(--second-color);
+    color: white;
+    cursor: pointer;
+}
+
+
+.div1{
+    height: 80vh;
+}
+.card-group{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .div1{
+        height: 30vh;
+    }
+    .card-group{
+        top: 150px;
+    }
+}
+@media (min-width: 900px) {
+    .div1{
+        height: 20vh;
+    }
+}

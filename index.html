@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header class="text-white d-grid gap-4 main_background">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary main_background">
+            <div class="container-fluid">
+              <a class="navbar-brand d-flex align-items-center gap-3 px-3" href="#">
+                <img class="w-25" src="Images/logo@2x.png" alt="">
+                <div>
+                    <h3 class="fs-6 fw-bold text-white">Weather</h3>
+                    <p> tagline goes here</p>
+                </div>
+              </a>
+              <button class="text-white btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="list d-flex align-items-center justify-content-center d-md-none">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+              </button>
+              <div class="collapse navbar-collapse third_background text-center rounded-1" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" style="font-size: 12px;" aria-current="page" href="#">Home</a> <hr />
+                  <a class="nav-link" style="font-size: 12px;" href="#">News</a> <hr />
+                  <a class="nav-link" style="font-size: 12px;" href="#">Live cameras</a> <hr />
+                  <a class="nav-link" style="font-size: 12px;" href="#">Photos</a> <hr />
+                  <a class="nav-link" style="font-size: 12px;" href="#">Contact</a>
+
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="position-relative">
+        <div class="img_background d-flex align-items-start justify-content-center pt-5">
+            <div class="main_background rounded-5 p-1 d-flex align-items-center justify-content-between w-100 mx-5">
+                <input id="searchInput" class="mx-3 bg-transparent text-white border-0 w-100" type="search"
+                    placeholder="Find your location...">
+                <button id="searchBtn" type="button"
+                    class="btn second_background text-white px-4 rounded-5 btn">Find</button>
+            </div>
+        </div>
+        <div class="div1 main_background"></div>
+        <div class="card-group container-fluid" id="weatherCards">
+            <div id="today" class="card third_background text-white mx-2 mx-md-0"></div>
+            <div id="tomorrow" class="card third_background text-white mx-2 mx-md-0"></div>
+            <div id="dayAfterTomorrow" class="card third_background text-white mx-2 mx-md-0"></div>
+        </div>
+
+    </main>
+    <footer class="fourth_background p-5 d-grid gap-4">
+        <div class="main_background rounded-5 p-1 d-flex align-items-center justify-content-between mx-5">
+            <input id="searchInput" class="mx-3 bg-transparent text-white border-0 w-100" type="search"
+                placeholder="Find your location...">
+            <button id="searchBtn" type="button"
+                class="btn second_background text-white px-4 rounded-5 btn">Find</button>
+        </div>
+        <div class="d-grid gap-2 px-5">
+            <div class="d-flex gap-3">
+                <div
+                    class="main_background second_color sochal rounded-circle d-flex justify-content-center align-items-center">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div
+                    class="main_background second_color sochal rounded-circle d-flex justify-content-center align-items-center">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div
+                    class="main_background second_color sochal rounded-circle d-flex justify-content-center align-items-center">
+                    <i class="fa-brands fa-google-plus-g"></i>
+                </div>
+                <div
+                    class="main_background second_color sochal rounded-circle d-flex justify-content-center align-items-center">
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </div>
+            </div>
+            <div class="text-white">Copyright 2014 Company name. Designed by Themezy. All rights reserved</div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/all.min.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

@@ -48,6 +48,7 @@ const apiKey = "your_weatherapi_key_here";
 ```
 
 ### 📂 Folder Structure
+```bash
 weather-app/
 │
 ├── index.html
@@ -58,6 +59,7 @@ weather-app/
 │   ├── icon-wind.png
 │   └── icon-compass.png
 └── README.md
+```
 
 ### 📸 UI Preview
 Weather cards for Today, Tomorrow, and Day After Tomorrow.

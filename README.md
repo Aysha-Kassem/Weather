@@ -38,6 +38,8 @@ cd weather-app
 ### 2. Open index.html in your browser
 No backend or build tools required — it's pure frontend!
 
+---
+
 ### 🔑 API Keys
 You’ll need a free WeatherAPI key to run the app.
 
@@ -46,6 +48,7 @@ Replace the placeholder in the code:
 ```bash
 const apiKey = "your_weatherapi_key_here";
 ```
+---
 
 ### 📂 Folder Structure
 ```bash
@@ -60,15 +63,18 @@ weather-app/
 │   └── icon-compass.png
 └── README.md
 ```
+---
 
 ### 📸 UI Preview
 Weather cards for Today, Tomorrow, and Day After Tomorrow.
 
+---
 ### ⚠️ Notes
 - If the user denies geolocation, the app will fallback to "Alexandria".
 - Ensure your browser supports Geolocation and fetch().
 - Works without any frameworks, but relies on Bootstrap 5 and the two APIs.
 
+---
 ### 🙋‍♀️ Author
 Aysha Kassem
 If you enjoyed this project or have questions, feel free to reach out!
